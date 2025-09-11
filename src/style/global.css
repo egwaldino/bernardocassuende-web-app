@@ -1,0 +1,79 @@
+/* src/global.css */
+
+/* Import do AOS */
+@import "aos/dist/aos.css";
+
+/* Aqui você pode adicionar estilos globais do seu projeto */
+body, html {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#logo {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeDown 1.2s forwards;
+}
+
+#navbar {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeDown 1.2s forwards;
+}
+
+#button {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeDown 1.2s forwards;
+}
+
+#text {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeDown 1.2s forwards;
+}
+
+#text {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeDown 1.2s forwards;
+}
+
+@keyframes fadeDown {
+  to {opacity: 1;
+  transform: translateY(0);}
+}
+
+#hero-title,
+#hero-subtitle,
+#hero-text,
+#hero-image,
+#hero-button1,
+#hero-button2 {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1.2s forwards;
+}
+
+#hero-subtitle {
+  animation-delay: 0.3s;
+}
+
+#hero-text {
+  animation-delay: 0.6s;
+}
+#hero-button1 {
+  animation-delay: 0.8s;
+}
+#hero-button2 {
+  animation-delay: 1s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
