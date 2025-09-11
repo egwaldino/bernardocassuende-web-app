@@ -1,4 +1,4 @@
-import { Heading, VStack, Text, Link, Flex } from "@chakra-ui/react";
+import { Heading, VStack, Text, Flex } from "@chakra-ui/react";
 import { ServicesCard } from "./ServicesCard";
 
 
@@ -28,15 +28,6 @@ export function ServicesSection() {
             <Flex h="100%" justify="center" data-aos="fade-up" data-aos-duration="1800" data-delay="600" >
                 <ServicesCard />
             </Flex>
-
-            <VStack lineHeight={1}>
-                <Text data-aos="fade-up" data-aos-duration="800" data-delay="200"  color="gray.400" fontSize={{ base: 12, md: 14, lg: 14 }} textAlign="center">
-                    Não sabe qual serviço é o ideal para você?
-                </Text>
-                <Link data-aos="fade-up" data-aos-duration="1200" data-delay="400"  fontSize={{ base: 12, md: 14, lg: 14 }} color="blue.600" fontWeight="semibold" textDecor="underline" textAlign="center">
-                    Agende uma consulta para discutir as tuas necessidades
-                </Link>
-            </VStack>
 
         </Flex>
     )

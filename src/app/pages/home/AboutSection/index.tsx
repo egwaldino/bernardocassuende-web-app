@@ -21,11 +21,16 @@ export function AboutSection() {
                 gap={4}
                 w={{ base: "90%", md: "50%", lg: "50%" }}
             >
-                <Heading  data-aos="fade-up" data-aos-duration="800" data-delay="200" fontSize={{ base: 16, md: 16, lg: 18 }}>Sobre Dr. Bernardo Cassuende</Heading>
+                <Heading data-aos="fade-up" data-aos-duration="800" data-delay="200" fontSize={{ base: 16, md: 16, lg: 18 }}>Sobre Dr. Bernardo Cassuende</Heading>
                 <Text data-aos="fade-up" data-aos-duration="1200" data-delay="400" fontSize={{ base: 12, md: 14, lg: 14 }} textAlign="center">
-                    Dedicado a fornecer terapia compassiva e baseada
-                    em evidências para ajudar você a alcançar mudanças
-                    positivas duradouras
+                    Nossa missão é oferecer uma abordagem terapêutica integrativa, 
+                    fundamentada em evidências científicas, para apoiar você na 
+                    construção de mudanças positivas e duradouras em sua vida. 
+                    Acreditamos que cada pessoa possui o potencial para crescer, 
+                    superar desafios e ressignificar sua história. Por meio de 
+                    técnicas eficazes, escuta empática e um ambiente acolhedor, 
+                    promovemos o desenvolvimento emocional, o fortalecimento da 
+                    autoestima e o bem-estar integral.
                 </Text>
             </VStack>
             <Flex
@@ -37,7 +42,7 @@ export function AboutSection() {
             >
                 <Flex minW={"250px"} maxW={"650px"} minH={"250px"} maxH={"290px"} px={5}>
                     <Image
-                    data-aos="fade-right" data-aos-duration="1200" data-delay="400" 
+                        data-aos="fade-right" data-aos-duration="1200" data-delay="400"
                         rounded="100%"
                         objectFit="cover"
                         transition="all 0.6s ease"

@@ -8,7 +8,7 @@ import { Heading, HStack, VStack, Text, Icon, Link, Flex, Image, Box } from "@ch
 
 export function Footer() {
     return (
-        <VStack  divideY="1px" divideColor="gray.300" h="100%" w="100%" color="black" gap={20}>
+        <VStack divideY="1px" divideColor="gray.300" h="100%" w="100%" color="black" gap={20}>
             <HStack flexDir={{ base: "column", md: "column", lg: "row" }} w="full" h="40vh" gap={"13em"} py={20} px={{ base: 13, md: 24, lg: 24 }} align={{ base: "center", md: "start", lg: "start" }}>
                 <VStack data-aos="fade-right" data-aos-duration="1200" data-delay="200" w={{ base: "100%", md: "100%", lg: "30%" }} align={{ base: "center", md: "center", lg: "start" }} gap={8}>
                     <Link focusRing="none" alignItems={{ md: "flex-end" }} color="blackAlpha.900" href="/" fontWeight="bold" fontSize="lg" _hover={{ textDecoration: "none" }}>
@@ -29,7 +29,7 @@ export function Footer() {
                         w={{ base: "22em", md: "22em", lg: "15em" }}
                         textAlign={{ base: "center", md: "center", lg: "start" }}
                     >
-                        Serviços psicológicos profissionais focados na sua saúde mental e bem-estar.
+                        Serviços psicológicos com profissionais focados na sua saúde mental e no seu bem estar.
                     </Text>
                     <HStack justify={{ base: "center", md: "center", lg: "start" }} w="full">
                         <Link transition="all 0.6s ease" _hover={{ transform: "scale(1.3)" }} href="http://wa.me/244923435995" target="_blank">
@@ -69,7 +69,7 @@ export function Footer() {
                     </Flex>
 
                     <Flex data-aos="fade-left" data-aos-duration="1200" data-delay="600" flexDir="column" justify="space-between" align={{ base: "center", md: "center", lg: "start" }} gap={8}>
-                        <Heading  fontSize={{ base: 12, md: 14, lg: 16 }}>Horário de Atendimento</Heading>
+                        <Heading fontSize={{ base: 12, md: 14, lg: 16 }}>Horário de Atendimento</Heading>
 
                         <HStack w="full" justifyContent="space-between" fontSize={{ base: 12, md: 14, lg: 14 }}>
                             <Text color="black">Segunda - Sexta</Text>
@@ -87,7 +87,7 @@ export function Footer() {
                     </Flex>
                 </HStack>
             </HStack>
-            <HStack  marginTop={{ base: "25rem", md: "25rem", lg: "1rem" }} w="full" h="100%" py={5} px={20} justify="center">
+            <HStack marginTop={{ base: "25rem", md: "25rem", lg: "1rem" }} w="full" h="100%" py={5} px={20} justify="center">
                 <Link href={"https://www.instagram.com/egwaldinodinis.ao?igsh=YW96NWF5N2U3ZHRr&utm_source=qr"} target="_blank">
                     <Flex
                         gap={"0.5rem"}

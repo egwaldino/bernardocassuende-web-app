@@ -7,12 +7,12 @@ const aboutcardinfo = [
     {
         icon: HiAcademicCap,
         title: "Educação & Credenciais",
-        subtitle: "Licenciado em Psicologia pela Universidade Independente de Angola, CEP: Nº003973. Formado em Programação Neurolinguística - PNL e Hipnoterapia Clínica & Classica"
+        subtitle: "Licenciado em Psicologia pela Universidade Independente de Angola, CEP: Nº003973. Formado em Programação Neurolinguística - PNL e Hipnoterapia Clínica e Ericksoniana"
     },
     {
         icon: BsFillPeopleFill,
         title: "Abordagem Psicologica",
-        subtitle: "Minha abordagem integrativa combina a clareza da Terapia Cognitivo-Comportamental, a praticidade da PNL e a profundidade da Hipnoterapia Clínica, ajudando você a transformar pensamentos, emoções e comportamentos de forma rápida e duradoura."
+        subtitle: "Minha abordagem integrativa, que combina a clareza da Terapia Cognitiva  comportamental, a praticidade da PNL e a profundidade da hipnoterapia clínica, ajudando-te a lidar com as suas emoções, sentimentos e comportamentos."
     },
 ]
 
