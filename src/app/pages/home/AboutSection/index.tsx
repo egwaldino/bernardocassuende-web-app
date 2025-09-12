@@ -25,12 +25,7 @@ export function AboutSection() {
                 <Text data-aos="fade-up" data-aos-duration="1200" data-delay="400" fontSize={{ base: 12, md: 14, lg: 14 }} textAlign="center">
                     Nossa missão é oferecer uma abordagem terapêutica integrativa, 
                     fundamentada em evidências científicas, para apoiar você na 
-                    construção de mudanças positivas e duradouras em sua vida. 
-                    Acreditamos que cada pessoa possui o potencial para crescer, 
-                    superar desafios e ressignificar sua história. Por meio de 
-                    técnicas eficazes, escuta empática e um ambiente acolhedor, 
-                    promovemos o desenvolvimento emocional, o fortalecimento da 
-                    autoestima e o bem-estar integral.
+                    construção de mudanças positivas e duradouras em sua vida.
                 </Text>
             </VStack>
             <Flex
