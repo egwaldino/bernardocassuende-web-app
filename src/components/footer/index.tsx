@@ -8,13 +8,15 @@ import { Heading, HStack, VStack, Text, Icon, Link, Flex, Image, Box } from "@ch
 export function Footer() {
     return (
         <VStack divideY="1px" divideColor="gray.300" h="100%" w="100%" color="black" gap={20}>
-            <HStack flexDir={{ base: "column", md: "column", lg: "row" }} w="full" h="70vh" gap={"13em"} py={20} px={{ base: 13, md: 24, lg: 24 }} align={{ base: "center", md: "start", lg: "start" }}>
-                <VStack data-aos="fade-right" data-aos-duration="1200" data-delay="200" w={{ base: "100%", md: "100%", lg: "30%" }} align={{ base: "center", md: "center", lg: "start" }} gap={8}>
+            <HStack flexDir={{ base: "column", md: "column", lg: "row" }} w="full" py={20} px={{ base: 13, md: 24, lg: 24 }} align={{ base: "center", md: "start", lg: "start" }}>
+                <VStack data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200" w={{ base: "100%", md: "100%", lg: "30%" }} align={{ base: "center", md: "center", lg: "start" }} gap={8}>
                     <Link focusRing="none" alignItems={{ md: "flex-end" }} color="blackAlpha.900" href="/" fontWeight="bold" fontSize="lg" _hover={{ textDecoration: "none" }}>
                         <Box w={"280px"} h={"110px"}>
                             <Image
                                 w="100%"
                                 h="100%"
+                                loading="lazy" 
+                                decoding="async"
                                 objectFit="cover"
                                 src={LogoHipnosave}
                                 transition="all 0.6s ease"
@@ -49,7 +51,7 @@ export function Footer() {
                     </HStack>
                 </VStack>
 
-                <HStack data-aos="fade-left" data-aos-duration="1200" data-delay="200" w="100%" h="100%" flexDir={{ base: "column", md: "column", lg: "row" }} justifyContent={{ base: "center", md: "center", lg: "flex-end" }} align={{ base: "center", md: "center", lg: "start" }} gap={16}>
+                <HStack data-aos="fade-left" data-aos-duration="1200" py={20} w="100%" flexDir={{ base: "column", md: "column", lg: "row" }} justifyContent={{ base: "center", md: "center", lg: "flex-end" }} align={{ base: "center", md: "center", lg: "start" }} gap={16}>
                     <Flex flexDir="column" align={{ base: "center", md: "center", lg: "start" }} justify="space-between" gap={{ base: 4, md: 8, lg: 8 }}>
                         <Heading fontSize={{ base: 12, md: 14, lg: 16 }}>Informações de Contactos</Heading>
 
@@ -67,7 +69,7 @@ export function Footer() {
                         </Link>
                     </Flex>
 
-                    <Flex data-aos="fade-left" data-aos-duration="1200" data-delay="600" flexDir="column" justify="space-between" align={{ base: "center", md: "center", lg: "start" }} gap={8}>
+                    <Flex data-aos="fade-left" data-aos-duration="800" flexDir="column" justify="space-between" align={{ base: "center", md: "center", lg: "start" }} gap={8}>
                         <Heading fontSize={{ base: 12, md: 14, lg: 16 }}>Horário de Atendimento</Heading>
 
                         <HStack w="full" justifyContent="space-between" fontSize={{ base: 12, md: 14, lg: 14 }}>

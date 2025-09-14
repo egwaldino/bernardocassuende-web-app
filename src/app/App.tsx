@@ -13,8 +13,11 @@ import { TestimonialsSection } from "./pages/home/TestimonialsSection"
 function App() {
   
 useEffect(() => {
-  AOS.init({ duration: 800 });
+  AOS.init({ 
+    duration: 800,
+  });
 }, []);
+
   return (
     <Box w="100%" h="100%" bgColor="white">
       <Header />

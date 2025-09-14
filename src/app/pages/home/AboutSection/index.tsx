@@ -21,8 +21,8 @@ export function AboutSection() {
                 gap={4}
                 w={{ base: "90%", md: "50%", lg: "50%" }}
             >
-                <Heading data-aos="fade-up" data-aos-duration="800" data-delay="200" fontSize={{ base: 16, md: 16, lg: 18 }}>Sobre Dr. Bernardo Cassuende</Heading>
-                <Text data-aos="fade-up" data-aos-duration="1200" data-delay="400" fontSize={{ base: 12, md: 14, lg: 14 }} textAlign="center">
+                <Heading data-aos="fade-up" data-aos-duration="800" fontSize={{ base: 16, md: 16, lg: 18 }}>Psicólogo Bernardo Cassuende</Heading>
+                <Text data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" fontSize={{ base: 12, md: 14, lg: 14 }} textAlign="center">
                     Nossa missão é oferecer uma abordagem terapêutica integrativa, 
                     fundamentada em evidências científicas, para apoiar você na 
                     construção de mudanças positivas e duradouras em sua vida.
